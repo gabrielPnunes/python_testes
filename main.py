@@ -1,36 +1,35 @@
-from math import trunc
-number = float(input('Digite um número quebrado: '))
-print('O valor inteiro é {}'.format(trunc(number)))
+# name = str(input('Digite seu nome completo: ')).strip()
+# print('Analisando seu nome...')
+# print('Seu nome em maiúslucas é {}'.format(name.upper()))
+# print('Seu nome em minúsculas é {}'.format(name.lower()))
+# print('Seu nome tem ao todo {} letras'.format(len(name)- name.count(' ')))
+# na_spl = (name.split())
+# print('Seu primeiro nome é {}, e tem ao todo {} letras'.format(na_spl[0], len(na_spl[0])))
 
-from math import sqrt
-cat_op = float(input('Qual o tamanho do cateto oposto? '))
-cat_adj = float(input('Qual o tamnhgo do cateto adjacente? '))
-hipo = (cat_adj ** 2 + cat_op ** 2)
-print('O valor da hipotenusa é {:.2f}'.format(sqrt(hipo)))
+# n = int(input('Digite um número de 0 a 9999: '))
+# u = n // 1 % 10
+# d = n // 10 % 10 
+# c = n // 100 % 10
+# m = n // 1000 % 10
+# print('Unidade: {}'.format(u))
+# print('Dezena: {}'.format(d))
+# print('Centena: {}'.format(c))
+# print('Milhar: {}'.format(m))
 
-from math import sin, cos, tan, radians
-ang = float(input('Digite um ângulo: '))
-sen = sin(radians(ang))
-coss = cos(radians(ang))
-tang = tan(radians(ang))
-print('O ângulo de {} tem o SENO de {:.2f}'.format(ang, sen))
-print('O ângulo de {} tem o COSSENO de {:.2f}'.format(ang, coss))
-print('O ângulo de {} tem a TANGENTE de {:.2f}'.format(ang, tang))
+# city = str(input('Digite a sua cidade: ')).strip()
+# print(city[:5].upper() == 'SANTO')
 
-from random import choice
-prim = str(input('Primeiro aluno: '))
-second = str(input('Segundo aluno: '))
-terc = str(input('Terceiro aluno: '))
-quart = str(input('Quarto aluno: '))
-lista = [prim, second, terc, quart]
-esco = choice(lista)
-print('O aluno escolhido foi {}'.format(esco))
+sobr = str(input('Digite seu nome completo: ')).strip()
+print('Seu nome tem Silva? {}'.format('silva' in sobr.lower()))
 
-from random import shuffle
-n1 = str(input('Primeiro aluno: '))
-n2 = str(input('Segundo aluno: '))
-n3 = str(input('Terceiro aluno: '))
-n4 = str(input('Quarto aluno: '))
-lis = [n1, n2, n3, n4]
-escol = shuffle(lis)
-print('A ordem de apresentação será: {}'.format(lis))
+# fra = str(input('Digite uma frase: '))
+# print('A letra A aparece {} vezes na frase'.format(fra.count('a')))
+# print('A letra A aparece pela primeira vez na posição {} da frase'.format(fra.find('a')))
+# print('A letra A aparece pela última vez na posição {} da frase'.format(fra.rfind('a')))
+
+# sobr_nam = str(input('Digite seu nome completo: '))
+# pri_nam = sobr_nam.split()
+# ult_nam = sobr_nam.split()
+# print('O seu nome completo é {}'.format(sobr_nam))
+# print('O Primeiro nome é {}'.format(pri_nam[0]))
+# print('O segundo nome é {}'.format(ult_nam[9]))
