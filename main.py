@@ -1,23 +1,23 @@
-# name = str(input('Digite seu nome completo: ')).strip()
-# print('Analisando seu nome...')
-# print('Seu nome em maiúslucas é {}'.format(name.upper()))
-# print('Seu nome em minúsculas é {}'.format(name.lower()))
-# print('Seu nome tem ao todo {} letras'.format(len(name)- name.count(' ')))
-# na_spl = (name.split())
-# print('Seu primeiro nome é {}, e tem ao todo {} letras'.format(na_spl[0], len(na_spl[0])))
+name = str(input('Digite seu nome completo: ')).strip()
+print('Analisando seu nome...')
+print('Seu nome em maiúslucas é {}'.format(name.upper()))
+print('Seu nome em minúsculas é {}'.format(name.lower()))
+print('Seu nome tem ao todo {} letras'.format(len(name)- name.count(' ')))
+na_spl = (name.split())
+print('Seu primeiro nome é {}, e tem ao todo {} letras'.format(na_spl[0], len(na_spl[0])))
 
-# n = int(input('Digite um número de 0 a 9999: '))
-# u = n // 1 % 10
-# d = n // 10 % 10 
-# c = n // 100 % 10
-# m = n // 1000 % 10
-# print('Unidade: {}'.format(u))
-# print('Dezena: {}'.format(d))
-# print('Centena: {}'.format(c))
-# print('Milhar: {}'.format(m))
+n = int(input('Digite um número de 0 a 9999: '))
+u = n // 1 % 10
+d = n // 10 % 10 
+c = n // 100 % 10
+m = n // 1000 % 10
+print('Unidade: {}'.format(u))
+print('Dezena: {}'.format(d))
+print('Centena: {}'.format(c))
+print('Milhar: {}'.format(m))
 
-# city = str(input('Digite a sua cidade: ')).strip()
-# print(city[:5].upper() == 'SANTO')
+city = str(input('Digite a sua cidade: ')).strip()
+print(city[:5].upper() == 'SANTO')
 
 sobr = str(input('Digite seu nome completo: ')).strip()
 print('Seu nome tem Silva? {}'.format('silva' in sobr.lower()))
