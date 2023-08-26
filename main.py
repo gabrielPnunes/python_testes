@@ -110,7 +110,7 @@ elif 30 <= imc < 40:
 else:
     print('Está com obsidade mórbida, o seu imc é de {:.1f}'.format(imc))
 
-preco_prod = float(input('Digite o preço do produto :R$ '))
-avista_d = preco_prod - (preco_prod * 0.1)
-if avista_d:
-    print('O preço do produto a vista em dinheiro ou cartão, fica em R${}, ja com os 10% de desconto'.format(avista_d))
+# preco_prod = float(input('Digite o preço do produto :R$ '))
+# avista_d = preco_prod - (preco_prod * 0.1)
+# if avista_d:
+#     print('O preço do produto a vista em dinheiro ou cartão, fica em R${}, ja com os 10% de desconto'.format(avista_d))
