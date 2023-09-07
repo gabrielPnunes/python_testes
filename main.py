@@ -5,4 +5,3 @@ for qui in range(1, 501, 2):
         count = count + 1
         soma = soma + qui
 print('A soma dos {} valores enviados é {} '.format(count, soma))
-
