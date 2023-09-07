@@ -15,9 +15,3 @@ for qui in range(1, 501, 2):
         count = count + 1
         soma = soma + qui
 print('A soma dos {} valores enviados é {} '.format(count, soma))
-    
-n = int(input('Digite um número para formar uma tabuada: '))
-for tabuada in range(1, 11):
-    n * 1
-    n * 2
-    print(tabuada)
