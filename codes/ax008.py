@@ -25,3 +25,7 @@ for i in range(0,2):
     j = int(input('Digite um número: '))
     h += j
 print('O somatório de todos os valores foi {}'.format(h))
+
+frutas = ["maçã", "banana", "cereja"]
+for x in frutas(0, 2):
+print(x)
