@@ -1,55 +1,36 @@
-soma = 0
-count = 0
-for qui in range(1, 501, 2):
-    if qui % 3 == 0:
-        count = count + 1
-        soma = soma + qui
-print('A soma dos {} valores enviados é {} '.format(count, soma))
+#MÚLTIPLOS VALORES PARA UMA VARIÁVEIS
+a, b, c = "limão", "laranja", "manga"
+print(a)
+print(b)
+print(c)
 
+#UM VALOR PARA MÚLTIPLAS VARIÁVEIS
+d = e = f = "banana"
+print(d)
+print(e)
+print(f)
 
-from random import randint
-from time import sleep
-itens = ('Pedra', 'Papel', 'Tesoura')
-computador = randint(0, 2)
-print('''Suas opção são:
-[ 0 ] PEDRA
-[ 1 ] PAPEL
-[ 2 ] TESOURA''')
-jogador = int(input('Qual a sua jogada? '))
-print('Pedra')
-sleep(1)
-print('Papel')
-sleep(1)
-print('Tesoura!!')
-sleep(1)
-print('-=' * 10)
-print('O jogador jogou {}'.format(itens[jogador]))
-print('O computador jogou {}'.format(itens[computador]))
-print('-=' * 10)
-if computador == 0:
-    if jogador == 0:
-        print('Empate')
-    elif jogador == 1:
-        print('O jogador venceu!!')
-    elif jogador == 2:
-        print('O computador venceu')
-    else:
-        print('Jogada inválida')
-elif computador == 1: 
-    if jogador == 0:
-        print('O computador vence')
-    elif jogador == 1:
-        print('Empate')
-    elif jogador == 2:
-        print('O jogador venceu!!')
-    else:
-        print('Jogada inválida')
-elif computador == 2:
-    if jogador == 0:
-        print('O jogador venceu!!')
-    elif jogador == 1:
-        print('O computador venceu')
-    elif jogador == 2:
-        print('Empate')
-else:
-    print('Jogada inválida')
+#DESCOMPACTAR UMA LISTA
+vegetais = ["batata", "alface", "cenoura"]
+g, h, i = vegetais
+print(g)
+print(h)
+print(i)
+
+#VARIAVEL LOCAL
+x = "otimo"
+
+def MinhaFuncao():
+    print("Pyton é " + x)
+
+MinhaFuncao()
+
+#VARIAVEL GLOBAL
+x2 = "Maneirão"
+
+def MinhaFuncao2():
+    global x2
+    x2 = "maneralho"
+MinhaFuncao2()
+
+print("Python é " + x2)
